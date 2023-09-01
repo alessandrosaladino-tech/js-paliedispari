@@ -55,3 +55,46 @@ wordCheckBtn.addEventListener("click", function () {
     palindromeCheck(word, reverseResult);
 
 })
+
+
+
+//METODO VELOCE 
+
+//const word = prompt("Inserisci una parola")
+/*//splitto la parola in un array
+const splitted_word = world.split("")
+
+//rovescio l'array
+const reversed_array = splitted_word.reverse()
+console.log(reversed_array);
+
+//riunisco l'array in una stringa
+reversed_word = reversed_array.join("")
+
+console.log(word, reversed_word;
+   
+
+/** //reverse a word
+ * @param {string} word
+*/
+/*
+function reverseWord(word) {
+    return word.split("").reverse().join("")
+}
+
+function is_palindrom(word) {
+    
+    const reversed_word = reverseWord(word)
+    if(word === reversed_word) {
+      return true
+    } else {
+        return false
+    }
+}
+
+if (is_palindrom(word)) {
+    console.log("La parola è un palindromo");
+}else {
+    console.log("La parola non è un palindromo");
+}
+*/
